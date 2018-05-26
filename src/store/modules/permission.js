@@ -30,7 +30,9 @@ function filterAsyncRouter(asyncRouterMap, roles) {
   })
   return accessedRouters
 }
-
+/**
+ * https://segmentfault.com/a/1190000012015742 vuex状态管理
+ */
 const permission = {
   state: {
     routers: constantRouterMap,
